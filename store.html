@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Store | Motion Web Services</title>
+    <link rel="stylesheet" href="store.css"> <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+
+    <header class="header">
+        <div class="logo"><span>MOTION</span>WEB STORE</div>
+        <nav class="nav-menu">
+            <a href="index.html" class="nav-link">Назад на главную</a>
+        </nav>
+    </header>
+
+    <section class="hero" style="height: auto; padding: 150px 0 80px 0;">
+        <div class="container">
+            <div class="hero-content">
+                <h1>Предлагаем свои <span class="highlight">услуги</span></h1>
+                <p style="max-width: 800px; margin: 20px auto;">В Motion Web мы не просто учим коду, мы меняем судьбы. Самые смелые предложения специально для вас!</p>
+            </div>
+        </div>
+    </section>
+
+    <section class="container" style="padding-bottom: 100px;">
+        <div class="team-grid">
+            <div class="employee-card" style="width: 100%; max-width: 500px; padding: 30px;">
+                <div class="card-info">
+                    <h2 style="color: var(--accent); margin-bottom: 20px;">Программа "IT-Наследник"</h2>
+                    <h3 style="font-size: 1.5rem; margin-bottom: 15px;">Отдайте своего ребенка нам, и вы не пожалеете!</h3>
+                    <p class="desc" style="font-size: 1rem; line-height: 1.8;">
+                        Мы берем на себя полную ответственность за будущее вашего чада. Пока другие дети играют в песочнице, ваш ребенок будет дебажить нейросети и писать бэкенд на Java. <br><br>
+                        <strong>Гарантии:</strong> 
+                        Через месяц он начнет говорить на Python, через два — требовать зарплату в долларах, а через три — научит вас переустанавливать Windows (профессионально). 
+                        Бла-бла-бла, это лучший вклад в будущее, какой только можно представить в 2026 году!
+                    </p>
+                    <button class="buy-btn">Записаться в рабство IT</button>
+                </div>
+            </div>
+
+            <div class="employee-card" style="width: 100%; max-width: 500px; padding: 30px;">
+                <div class="card-info">
+                    <h2 style="color: var(--accent); margin-bottom: 20px;">Курс "Стэнфорд на минималках"</h2>
+                    <p class="desc" style="font-size: 1rem; line-height: 1.8;">
+                        Хотите диплом, который выглядит солиднее, чем оригинал? Мы предлагаем экспресс-погружение в атмосферу Кремниевой долины, не выезжая из Бишкека. <br><br>
+                        В программе: бесконечный кофе, бессонные ночи и кодинг до потери пульса. Ваша жизнь превратится в сплошной цикл `while(true)`, но результат того стоит! Бла-бла-бла и еще немного рекламного пафоса.
+                    </p>
+                    <button class="buy-btn">Хочу в Стэнфорд!</button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <p>&copy; 2026 Motion Web Store. Все права защищены (наверное).</p>
+    </footer>
+
+    <style>
+        /* Дополнительные стили только для этой страницы */
+        .buy-btn {
+            margin-top: 30px;
+            background: var(--accent);
+            color: #000;
+            border: none;
+            padding: 15px 30px;
+            font-family: inherit;
+            font-weight: 700;
+            border-radius: 5px;
+            cursor: pointer;
+            transition: 0.3s;
+            text-transform: uppercase;
+        }
+        .buy-btn:hover {
+            background: #fff;
+            box-shadow: 0 0 20px var(--accent);
+            transform: scale(1.05);
+        }
+    </style>
+</body>
+</html>
